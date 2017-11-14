@@ -29,7 +29,7 @@ production stylesheet in assets/built/screen.css
 @import "global.css";
 
 body {
-    background: #f4f8fb;
+    background: #1f1f1f;
 }
 
 .img {
@@ -444,6 +444,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #3c3c3c;
 }
 
 .post-card-excerpt {
@@ -539,7 +540,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-template .site-main,
 .page-template .site-main {
     padding-bottom: 4vw;
-    background: #fff;
+    background: #1f1f1f;
 }
 
 .post-full {
@@ -576,7 +577,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
 .post-full-title {
     margin: 0;
-    color: color(var(--darkgrey) l(-5%));
+    color: color(var(--lightgrey) l(-5%));
 }
 
 .date-divider {
@@ -614,7 +615,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     font-family: Georgia, serif;
     font-size: 2.2rem;
     line-height: 1.6em;
-    background: #fff;
+    background: #1f1f1f;
 }
 
 @media (max-width: 1170px) {
@@ -1170,7 +1171,7 @@ Usage (In Ghost editor):
 }
 
 .author-card-name a {
-    color: var(--darkgrey);
+    color: var(--lightgrey);
     font-weight: 700;
 }
 
